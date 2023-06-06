@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(125, 126, 127);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1{
+    background-color: #4CAF50;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left:30%;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #000;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline -block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+}
+
+input[type="reset"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 2px solid #000; 
+    border-radius: 5px;
+    color: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d91616;
+}
+
+#budgetTable {
+    border-collapse: collapse;
+    width: 100%;
+    border-bottom: 3px solid #4CAF50;
+}
+
+#budgetForm {
+    font-size: large;
+}
